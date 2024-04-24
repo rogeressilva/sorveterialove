@@ -1,0 +1,18 @@
+:root {
+    --verde_claro: #9BF5D0;
+    --verde_escuro: #6EDAAD;
+    --verde: rgb(128, 232, 189);
+    ;
+    --rosa: #FF96C0;
+    --branco: #ffffff;
+}
+
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--verde_claro);
+}

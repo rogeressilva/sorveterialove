@@ -1,0 +1,176 @@
+.localizacao {
+    height: 500px;
+    background-color: var(--verde_escuro);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 52px 0;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.titulo_localizacao {
+    color: var(--branco);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens_localizacao {
+    position: relative;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    width: 800px;
+    height: 400px;
+}
+
+.descricao_local {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: var(--verde_claro);
+    width: 270px;
+    height: 80px;
+    border-radius: 16px;
+    color: #FF96C0;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.rua,
+.cep,
+.bairro,
+.cidade {
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.mapa {
+    width: 600px;
+    height: 200px;
+    margin-top: -70px;
+}
+
+@media screen and (max-width:1000px) {
+
+    body {
+        display: block;
+        height: 100%;
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .container,
+    .menu {
+        height: 50px;
+    }
+
+    main {
+        height: 600px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .localizacao {
+        display: flex;
+        height: 620px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .titulo_localizacao {
+        font-size: 30px;
+        padding: 10px;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .itens_localizacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 380px;
+        height: 600px;
+        text-align: center;
+    }
+
+    .descricao_local {
+        margin: 20px 0;
+    }
+
+    .mapa {
+        display: block;
+        height: 400px;
+        width: 350px;
+        margin: 20px 0 0 35px;
+    }
+
+    iframe {
+        display: flex;
+        height: 350px;
+        width: 300px;
+    }
+
+    .rodape {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        height: 170px;
+    }
+
+    .sorvete {
+        display: none;
+    }
+
+    .itens_rodape {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        height: 170px;
+    }
+
+    .frase_siga {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 330px;
+        margin-left: -120px;
+    }
+
+    .frase_fique {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 450px;
+        margin-left: -120px;
+    }
+
+    .logo_facebook,
+    .logo_instagram {
+        height: 40px;
+        width: 40px;
+        margin-top: 60px;
+    }
+}

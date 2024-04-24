@@ -1,0 +1,229 @@
+.cadastro_painel {
+    height: 545px;
+    background-color: var(--verde_escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.itens_cadastro {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 600px;
+    height: 500px;
+}
+
+.titulo_cadastro {
+    color: var(--branco);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+}
+
+/*
+.cadastro_cadastro {
+    display: flex;
+    width: 550px;
+    height: 450px;
+    justify-content: space-evenly;
+    margin-top: -15px;
+}*/
+
+.texto_cadastro {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--rosa);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 200px;
+    height: 150px;
+    background-color: var(--verde_claro);
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+
+.lista_cadastro {
+    display: grid;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 250px;
+    height: 400px;
+    background-color: var(--verde_claro);
+    border-radius: 16px;
+    box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.titulo_lista_cadastro {
+    color: var(--rosa);
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.lista_lista_cadastro {
+    color: var(--rosa);
+    display: grid;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 15px;
+    margin-top: -150px;
+}
+
+.titulo_lista_lista {
+    font-size: 16px;
+}
+
+.input {
+    width: 200px;
+    border-radius: 16px;
+    border: 2px solid var(--branco);
+    background-color: transparent;
+    padding: 5px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_botao {
+    padding: 5px 50px;
+    background-color: transparent;
+    border: 2px solid var(--verde_escuro);
+    border-radius: 16px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--rosa);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+
+    body {
+        display: block;
+        height: 100%;
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .container {
+        height: 80px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .cadastro_painel {
+        display: flex;
+        height: 720px;
+    }
+
+    .itens_cadastro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 380px;
+        height: 600px;
+        text-align: center;
+    }
+
+    .titulo_cadastro {
+        font-size: 24px;
+        height: 70px;
+        width: 350px;
+        padding: 10px;
+        margin-top: -20px;
+
+    }
+
+    .texto_cadastro {
+        margin: 0 0 20px 0;
+    }
+
+    .lista_lista {
+        display: block;
+    }
+
+    .rodape {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        height: 150px;
+    }
+
+    .sorvete {
+        display: none;
+    }
+
+    .itens_rodape {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        height: 150px;
+    }
+
+    .frase_siga {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 460px;
+        margin-left: -120px;
+    }
+
+    .frase_fique {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 580px;
+        margin-left: -120px;
+    }
+
+    .logo_facebook,
+    .logo_instagram {
+        height: 40px;
+        width: 40px;
+        margin-top: 50px;
+    }
+}
